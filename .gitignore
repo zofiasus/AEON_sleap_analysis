@@ -1,5 +1,27 @@
-.venv/
-.uv-cache/
-.vscode/
-outputs/
+# Data files
 data/
+
+# SLEAP outputs
+*.slp
+*.h5
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Conda / venv
+*.egg
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Outputs (optional — remove if you want to track these)
+outputs/
