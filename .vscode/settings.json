@@ -1,5 +1,9 @@
 {
   "python.defaultInterpreterPath": "/Users/zosiasus/.local/share/uv/tools/sleap/bin/python",
   "python.terminal.activateEnvironment": true,
-  "jupyter.notebookFileRoot": "${workspaceFolder}"
+  "jupyter.notebookFileRoot": "${workspaceFolder}",
+  "cSpell.words": [
+    "homography",
+    "sleap"
+  ]
 }
