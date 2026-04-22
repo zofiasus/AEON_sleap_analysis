@@ -4,6 +4,7 @@
   "jupyter.notebookFileRoot": "${workspaceFolder}",
   "cSpell.words": [
     "homography",
+    "ransac",
     "sleap"
   ]
 }
