@@ -37,7 +37,7 @@ def short_name(model_dir: Path) -> str:
 
 
 def load_metrics(model_dir: Path, split: str = "val") -> dict[str, Any]:
-    path = model_dir / f"metrics.{split}.0.npz"
+    path = next(model_dir.glob(f"metrics.{split}*.npz"))
     return np.load(path, allow_pickle=True)["metrics"].item()
 
 
