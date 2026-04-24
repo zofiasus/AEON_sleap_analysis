@@ -10,6 +10,7 @@ __pycache__/
 *.py[cod]
 *.egg-info/
 .env
+.venv/
 
 # Jupyter
 .ipynb_checkpoints/
