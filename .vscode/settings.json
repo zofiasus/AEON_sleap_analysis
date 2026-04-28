@@ -3,6 +3,7 @@
   "python.terminal.activateEnvironment": true,
   "jupyter.notebookFileRoot": "${workspaceFolder}",
   "cSpell.words": [
+    "homographies",
     "homography",
     "ransac",
     "reprojection",
